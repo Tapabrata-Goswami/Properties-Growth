@@ -4,11 +4,11 @@ import Hero from './components/hero/Hero'
 
 function App() {
   return (
-    <div className="page-wrapper">
+    <>
       <Cursor />
       <Header />
       <Hero />
-    </div>
+    </>
   )
 }
 

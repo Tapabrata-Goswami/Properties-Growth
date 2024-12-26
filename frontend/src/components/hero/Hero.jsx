@@ -2,9 +2,9 @@
 function Hero() {
   return (
     <div className="page-title">
-    <div className="page-title_cloud" style="background-image:url(assets/images/icons/cloud.png)"></div>
-    <div className="page-title_cloud-two" style="background-image:url(assets/images/icons/cloud-1.png)"></div>
-    <div className="page-title_pattern" style="background-image:url(assets/images/background/pattern-3.png)"></div>
+    <div className="page-title_cloud" style={{backgroundImage:'url(/images/icons/cloud.png)'}}></div>
+    <div className="page-title_cloud-two" style={{backgroundImage:'url(/images/icons/cloud-1.png)'}}></div>
+    <div className="page-title_pattern" style={{backgroundImage:'url(/images/background/pattern-3.png)'}}></div>
     <div className="page-title_gradient"></div>
     <div className="auto-container">
         <h2>Blog Sidebar</h2>
