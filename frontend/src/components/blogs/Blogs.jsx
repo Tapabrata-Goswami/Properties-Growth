@@ -42,14 +42,14 @@ function Blogs() {
                                     <div className="news-block_one style-two col-lg-6 col-md-6 col-sm-12" key={blog.id}>
                                     <div className="news-block_one-inner">
                                         <div className="news-block_one-image">
-                                            <a href={`/blog/${blog.slug}`}><img src={blog.featured_image} alt="" /></a>
+                                            <Link to={`/blog/${blog.slug}`}><img src={blog.featured_image} alt="" /></Link>
                                         </div>
                                         <div className="news-block_one-content">
                                             <ul className="news-block_one-meta">
                                                 <li>{ blog.author_name }</li>
                                                 <li>{blog.read_time} min read</li>
                                             </ul>
-                                            <h4 className="news-block_one-title"><a href={`/blog/${blog.slug}`}>{blog.title.rendered}</a></h4>
+                                            <h4 className="news-block_one-title"><Link to={`/blog/${blog.slug}`}>{blog.title.rendered}</Link></h4>
                                             <Link className="news-block_one-more" to={`/blog/${blog.slug}`}>Read More <i className="flaticon-next-1"></i></Link>
                                         </div>
                                     </div>
