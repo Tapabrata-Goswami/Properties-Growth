@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import Sidebar from '../sidebar/Sidebar'
+import { Link } from 'react-router-dom';
 
 
 function Blogs() {
@@ -10,7 +11,7 @@ function Blogs() {
 
     useEffect(()=>{
         const fetchBlogs = ()=>{
-            axios.get('http://properties-growth.local/wp-json/wp/v2/posts')
+            axios.get('https://sahal.handkrafts.in/art/wp-json/wp/v2/posts')
             .then((response)=>{
                 if(response.status === 200){
                     setBlogs(response.data);
@@ -49,7 +50,7 @@ function Blogs() {
                                                 <li>{blog.read_time} min read</li>
                                             </ul>
                                             <h4 className="news-block_one-title"><a href={`/blog/${blog.slug}`}>{blog.title.rendered}</a></h4>
-                                            <a className="news-block_one-more" href={`/blog/${blog.slug}`}>Read More <i className="flaticon-next-1"></i></a>
+                                            <Link className="news-block_one-more" to={`/blog/${blog.slug}`}>Read More <i className="flaticon-next-1"></i></Link>
                                         </div>
                                     </div>
                                 </div>

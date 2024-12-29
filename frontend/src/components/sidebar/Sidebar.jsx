@@ -24,21 +24,21 @@ function Sidebar() {
                         <h5 className="sidebar-widget_title">Popular Post</h5>
 
                         <div className="post">
-                            <div className="thumb"><a href="blog-detail.html"><img src="assets/images/resource/post-thumb-4.jpg" alt="" /></a></div>
+                            <div className="thumb"><a href="blog-detail.html"><img src="/images/resource/post-thumb-4.jpg" alt="" /></a></div>
                             <h6><a href="blog-detail.html">Unlocking the Market: Trends and  Insights</a></h6>
-                            <div className="post-date"><i><img src="assets/images/icons/calendar.svg" alt="" /></i> Mar 18, 2028</div>
+                            <div className="post-date"><i><img src="/images/icons/calendar.svg" alt="" /></i> Mar 18, 2028</div>
                         </div>
 
                         <div className="post">
                             <div className="thumb"><a href="blog-detail.html"><img src="assets/images/resource/post-thumb-5.jpg" alt="" /></a></div>
                             <h6><a href="blog-detail.html">Buyer's Blueprint: Navigating Home Ownership</a></h6>
-                            <div className="post-date"><i><img src="assets/images/icons/calendar.svg" alt="" /></i> Mar 18, 2028</div>
+                            <div className="post-date"><i><img src="/images/icons/calendar.svg" alt="" /></i> Mar 18, 2028</div>
                         </div>
 
                         <div className="post">
-                            <div className="thumb"><a href="blog-detail.html"><img src="assets/images/resource/post-thumb-6.jpg" alt="" /></a></div>
+                            <div className="thumb"><a href="blog-detail.html"><img src="/images/resource/post-thumb-6.jpg" alt="" /></a></div>
                             <h6><a href="blog-detail.html">Market Maven: News and  Views in Real Estate</a></h6>
-                            <div className="post-date"><i><img src="assets/images/icons/calendar.svg" alt="" /></i> Mar 18, 2028</div>
+                            <div className="post-date"><i><img src="/images/icons/calendar.svg" alt="" /></i> Mar 18, 2028</div>
                         </div>
 
                     </div>

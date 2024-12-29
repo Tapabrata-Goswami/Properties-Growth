@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 import Header from './components/header/Header'
 import Blog from './pages/Blog'
+import BlogDetails from './pages/BlogDetails'
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <div className="page-wrapper">
         <Header />
         <Routes>
-          <Route path='/blog' element={<Blog />} />
+          <Route path='/' element={<Blog />} />
+          <Route path='/blog/:slug' element={<BlogDetails />} />
         </Routes>
       </div>
     </Router>
