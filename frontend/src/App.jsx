@@ -1,21 +1,18 @@
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+
 import Header from './components/header/Header'
-import Cursor from './components/cursor/Cursor'
-import Hero from './components/hero/Hero'
-import Blogs from './components/blogs/Blogs'
-import ScrollTop from './components/scrolltop/ScrollTop'
+import Blog from './pages/Blog'
 
 function App() {
   return (
-    <div className="page-wrapper">
-      {/* <div className="preloader">
-        <div className="box"></div>
-      </div> */}
-      {/* <Cursor /> */}
-      <Header />
-      <Hero />
-      <Blogs />
-      <ScrollTop />
-    </div>
+    <Router>
+      <div className="page-wrapper">
+        <Header />
+        <Routes>
+          <Route path='/blog' element={<Blog />} />
+        </Routes>
+      </div>
+    </Router>
   )
 }
 

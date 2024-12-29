@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 function Header() {
   return (
@@ -66,15 +67,7 @@ function Header() {
 												<li><a href="property-detail.html">property detail</a></li>
 											</ul>
 										</li>
-										<li className="dropdown"><a href="#">Blog</a>
-											<ul>
-												<li><a href="blog.html">Blog</a></li>
-												<li><a href="blog-classNameic.html">Blog classNameic</a></li>
-												<li><a href="blog-sidebar.html">Blog Sidebar</a></li>
-												<li><a href="blog-detail.html">Blog Detail</a></li>
-												<li><a href="not-found.html">Not Found</a></li>
-											</ul>
-										</li>
+										<li><Link to='/blog'>Blog</Link></li>
 										<li><a href="contact.html">Contact</a></li>
 									</ul>
 								</div>

@@ -195,6 +195,7 @@
 	//  Animation Fade Left End
 	/////////////////////////////////////////////////////
 	// CURSOR
+	
 	var cursor = $(".cursor"),
 	follower = $(".cursor-follower");
 
@@ -241,6 +242,8 @@
 		cursor.removeClass("active");
 		follower.removeClass("active");
 	});   
+
+
 	// CURSOR End
 
 
@@ -294,6 +297,7 @@
 	
 	/////////////////////////////////////////////////////
   // 31. Folks animation
+  
   let endTl = gsap.timeline({
     repeat: -1,
     delay: 0.5,
