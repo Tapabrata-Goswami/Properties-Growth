@@ -10,13 +10,10 @@ function Header() {
 				<div className="inner-container">
 					<div className="d-flex justify-content-between align-items-center flex-wrap">
 							
-		
 						<div className="logo-box">
 							<div className="logo"><a href="index.html"><img src="/images/logo.svg" alt="" title=""/></a></div>
 						</div>
 						
-						
-			
 						<div className="nav-outer d-flex align-items-center flex-wrap">
 				
 							<nav className="main-menu navbar-expand-md">

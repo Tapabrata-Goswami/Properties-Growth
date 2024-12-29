@@ -1,6 +1,8 @@
 import Header from './components/header/Header'
 import Cursor from './components/cursor/Cursor'
 import Hero from './components/hero/Hero'
+import Blogs from './components/blogs/Blogs'
+import ScrollTop from './components/scrolltop/ScrollTop'
 
 function App() {
   return (
@@ -8,9 +10,11 @@ function App() {
       {/* <div className="preloader">
         <div className="box"></div>
       </div> */}
-      <Cursor />
+      {/* <Cursor /> */}
       <Header />
       <Hero />
+      <Blogs />
+      <ScrollTop />
     </div>
   )
 }
